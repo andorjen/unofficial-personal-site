@@ -1,0 +1,114 @@
+body {
+  font-family: monospace;
+
+}
+.main-body {
+  background-image: url(https://images.unsplash.com/photo-1500491460312-c32fc2dbc751?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  font-size: 1.5rem;
+}
+.navbar-brand {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 1.8rem;
+}
+
+#resume-link {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#github-link {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#resume-button {
+  display: flex;
+  margin: 15px 10px;
+  justify-content:flex-end;
+  position: sticky;
+}
+
+.resume-title {
+  text-align: center;
+  margin: 20px auto 0px;
+}
+
+.resume-bio {
+  font-size: 1.1rem;
+  margin-top: 30px;
+}
+.resume-body {
+  margin-top: 50px;
+}
+
+#jenny-image {
+  filter: grayscale(80%);
+}
+.info-content {
+  font-size: 1.1rem;
+  display:none;
+}
+
+.contact-circle {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding: auto;
+  background-color: black;
+  border-radius: 50%;
+  color:white;
+  border: 1px solid black;
+  transition: 1.5s;
+}
+
+.contact-circle:hover {
+  background: white;
+  color: black;
+}
+.contact-circle:hover #github-link {
+  color: black;
+}
+
+.contact-circle:hover .info-title {
+  display: none;
+}
+
+.contact-circle:hover .info-content {
+  display: block;
+}
+/* Start of typingdemo-- copied from Codepen orininal link is https://codepen.io/denic/pen/GRoOxbM*/
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 50ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+/*End of typingdemo-- copied from Codepen orininal link is https://codepen.io/denic/pen/GRoOxbM*/
